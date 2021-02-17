@@ -207,6 +207,7 @@ input {
   line-height: 93px;
   color: #5928E5;
   text-align: center;
+  margin: 0 0 90px 0;
 }
 
 .section1 {
@@ -354,10 +355,20 @@ input {
 }
 
 .fill {
-  /* height: 10px; */
-  /* width: 100px; */
-  /* text-align: center; */
-  /* margin: auto; */
   margin: 50px 0 0 0;
   box-shadow: 10px 10px 80px 15px #FED9DA;
+}
+
+.marvol-1 {
+  padding: 12px 24px;
+  margin-right: 16px;
+  background: #FED9DA;
+  border: none;
+  color: #5928E5;
+}
+.marvol-2 {
+  padding: 12px 24px;
+  background: none;
+  border: 1px solid #FED9DA;
+  color: #FED9DA;
 }
