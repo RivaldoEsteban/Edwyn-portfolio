@@ -318,6 +318,7 @@ input {
 
 .contacto-container {
   background: #FED9DA;
+
 }
 
 .footer-container {
@@ -336,6 +337,8 @@ input {
 .footer-contents {
   padding: 48px 0;
   text-align: center;
+   background: radial-gradient(21.81% 50.28% at 50% 111.94%, rgba(254, 224, 217, 0.5) 0%, rgba(255, 255, 255, 0) 100%),
+  linear-gradient(0deg, #5928E5, #5928E5);
 }
 
 .contacto1 a {
@@ -356,7 +359,10 @@ input {
 
 .fill {
   margin: 50px 0 0 0;
-  box-shadow: 10px 10px 80px 15px #FED9DA;
+  /* box-shadow: 10px 10px 80px 15px #FED9DA; */
+  background: radial-gradient(21.81% 50.28% at 50% 111.94%, rgba(254, 224, 217, 0.5) 0%, rgba(255, 255, 255, 0) 100%),
+  linear-gradient(0deg, #5928E5, #5928E5);
+
 }
 
 .marvol-1 {
@@ -371,4 +377,5 @@ input {
   background: none;
   border: 1px solid #FED9DA;
   color: #FED9DA;
+
 }
