@@ -3,10 +3,181 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cantarell:wght@400;700&family=Exo:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 <body>
-
+  <section class="header-hero">
+    <div class="wrapper">
+      <header class="header">
+        <img src="images/logo.png" alt="">
+        <div class="menu">
+          <p>Hola</p>
+          <p>Proyectos</p>
+          <p>Testimonios</p>
+          <p>Contacto</p>
+        </div>
+        <button class="header-button">Descargar Currículum</button>
+      </header>
+      <section class="hero">
+        <div class="hero-contents">
+          <img src="images/face.png" alt="">
+          <h1>¡Hola a todos! <br>
+          Soy Edwyn Cortez</h1>
+          <p>Developer que le encanta implementar diseños que  <br>
+          inspiran y atraen a las personas.</p>
+        </div>
+        <div class="habilities">
+          <div>
+            <img src="images/1.png" alt="">
+            <h3>
+              Implementaciones de la más alta calidad.
+            </h3>
+          </div>
+          <div>
+            <img src="images/2.png" alt="">
+            <h3>
+              Diseños pixel perfect creados en la mejor herramienta
+              de diseño.
+            </h3>
+          </div>
+          <div>
+            <img src="images/3.png" alt="">
+            <h3>
+              React desde 0, sin dependencias y usando
+              solo el lenguaje JavaScript.
+            </h3>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+  <section class="proyectos-container">
+    <div class="wrapper">
+      <section class="proyectos-contents">
+        <div class="presentation-proyect">
+          <h1 class="proyect-title">Proyectos</h1>
+          <div class="proyects">
+            <a href="#niko">Niko</a>
+            <a href="#marvol">Marvol</a>
+            <a href="#spotifu">Spotifu</a>
+          </div>
+        </div>
+        <div class="niko" id="niko">
+          <img class="image-niko" src="images/niko.png" alt="">
+          <div class="general-container">
+            <h1>NIKO</h1>
+            <p>
+              Niko es una de las marcas y proveedores de equipamiento deportivo más  reconocidas y valiosas en todo el mundo.
+              Por ello este proyecto es dedicado a crear la interfaz de la pagina oficial de Niko, donde tenemos uno de los calzados más...
+            </p>
+            <button class="btn-1">Ver proyecto</button>
+            <button class="btn-2">Ver código</button>
+          </div>
+        </div>
+        <div class="marvol" id="marvol">
+          <div class="marvol-contents">
+            <h1>MARVOL</h1>
+            <p>
+              En este proyecto, podrás encontrar distintos componentes y secciones de interés para todos los fanáticos de Marvol.
+            </p>
+            <button>Ver proyecto</button>
+            <button>Ver código</button>
+          </div>
+          <img class="image-marvol" src="images/marvol.png" alt="">
+        </div>
+        <div class="spotifu" id="spotifu">
+          <img class="image-spotifu" src="images/spotifu.png" alt="">
+          <div class="general-container">
+            <h1>Spotifu</h1>
+            <p>
+              Con este proyecto podrás desafiar tus habilidades como desarrollador Frontend, maquetando la interfaz de Spotifu, una de las apps más famosas de la industria musical.
+            </p>
+            <button class="btn-1">Ver proyecto</button>
+            <button class="btn-2">Ver código</button>
+          </div>
+        </div>
+        <div class="testimonio">
+          <h1 class="section-testimonio">Testimonios</h1>
+          <div class='section1'>
+            <div >
+              <img class="image" src="images/11.png" alt="">
+              <div class="box one">
+                <h3>Agustin</h3>
+                <p>Tengo algunos años trabajando con Javascript y aún así aprendí varias cosas importantes de Edwyn y como utiliza Javascript en el día a día.</p>
+              </div>
+            </div>
+            <div >
+              <img class="image" src="images/12.png" alt="">
+              <div class="box two">
+                <h3>Aritz</h3>
+                <p>Me gusto ver el porqué de las cosas del core de React, saber la magia que ocurre por detrás, excelente profesor Edwyn gran vocación.</p>
+              </div>
+            </div>
+          </div>
+          <div class="section2">
+            <div>
+              <img class="image" src="images/13.png" alt="">
+              <div class="box two ">
+                <h3>Victoriano</h3>
+                <p>
+                  Ayuda a entender el porqué de las cosas, lo cual nos da el poder de aprovechar mejor el lenguaje y las herramientas que tenemos.
+                </p>
+              </div>
+            </div>
+            <div>
+              <img class="image" src="images/14.png" alt="">
+              <div class="box one">
+                <h3>Jose Enrique</h3>
+                <p>La forma como explica y trabaja los temas Edwyn, me ha ayudado a comprender y sacarle el mayor provecho a HTML y CSS. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+  <section class="contacto-container">
+    <div class="wrapper">
+      <section class="contacto">
+        <h1>Contacto</h1>
+        <p>
+          Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto.
+        </p>
+        <input class="input" type="text" name="" id="" placeholder="Nombre completo">
+        <input class="input" type="text" name="" id="" placeholder="Correo electrónico">
+        <input class="input-mensaje" type="text" name="" id="" placeholder="mensaje">
+        <button>Enviar mensaje</button>
+      </section>
+    </div>
+  </section>
+  <footer class="footer-container">
+    <div class="wrapper">
+      <section class="footer-contents">
+        <img src="images/logo1.png" alt="">
+        <div class="footer-contacto">
+          <div class="contacto1">
+            <img src="images/email.png" alt="">
+            <a href="">Correo electrónico</a>
+          </div>
+          <div class="contacto1">
+            <img src="images/phone.png" alt="">
+            <a href="">Teléfono</a>
+          </div>
+          <div class="contacto1">
+            <img src="images/insta.png" alt="">
+            <a href="">Instagram</a>
+          </div>
+          <div class="contacto1">
+            <img src="images/twitter.png" alt="">
+            <a href="">Twitter</a>
+          </div>
+        </div>
+        <p class="p-footer">Hecho con <b><img src="images/cora.png" alt=""></b> de Edwyn. Copyright 2021 - Todos los derechos reservados.</p>
+      </section>
+    </div>
+  </footer>
 </body>
 </html>
