@@ -58,6 +58,11 @@ input {
   color: #5928E5;
 }
 
+.menu a{
+  font-size: 16px;
+  font-weight: 700;
+}
+
 .header-button {
   color: white;
   padding: 12px 24px;
